@@ -3,6 +3,7 @@
 \usepackage{graphics}
 
 \usepackage{fancyhdr}
+\usepackage{amssymb}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -65,15 +66,33 @@
 
 \tableofcontents
 
-\section{Introduction}
+\section{February 17, 2020}
    
-This is the first section.
+Recall:
+\begin{itemize}
+  \item Functions f: A\textrightarrow  B
+  \item Image $Im(f) = f(a)$
+\end{itemize}
+
+\noindent If f(a) = b, say "a is a preimage of b"
+\begin{itemize}
+  \item $Gr(f) = \{(a,b) | f(a)=b\}\subseteq AxB$
+  \item $Gr(f) = \{(a,f(a)) | a \in A\}$
+\end{itemize}
+
+\noindent Graph $Gr(f)$ is a relation between A and B\\
+\\
+\underline{Which binary relations (subsets of AxB) are graphs of functions?}
+\begin{itemize}
+  \item A subset $s\subseteq AxB$ is the graph of a function if for every element $a \in A$, there is a unique element $b \in B$ such that $(a,b) \in S$.
+  \item \underline{key} Can't have $(a, b_1)$ and $(a, b_2)$ $\in$ S where $b_1 != b_2$ and expect S to be a graph
+  \item (abstraction of "straight line test" about graphs $f:\mathbb{R}\rightarrow\mathbb{R}$)
+\end{itemize}
+
       
 
 
-\section{Second Section}
-       
-TYPE AWAY
+
 
 
 
