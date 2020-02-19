@@ -119,8 +119,37 @@ If B' is a set with $Im(f) \subseteq B' \subseteq B$, then we consider:
 \begin{itemize}
 \item $f_{1} + f_{2}(x) = f_{1}(x) + f_{2}(x)$
 \item $f_{1}f_{2}(x) = f_{1}(x) * f_{2}(x)$
+\item $f_{1},f_{2}:\mathbb{R} \rightarrow \mathbb{R}$ given by $f_{1}(x)=x^2, f_{2}(x)=x-x^2$
+\begin{itemize}
+\item Then $f_{1}+f_{2}, f_{1}*f_{2}:\mathbb{R} \rightarrow \mathbb{R}$ are defined by:\\
+			$f_{1} + f_{2}(x) = f_{1}(x) + f_{2}(x)=x $\\
+			$f_{1}f_{2}(x) = f_{1}(x) * f_{2}(x)=x^3-x^4$
+\item Note: $f_{1} + f_{2}(x) = \iota_{\mathbb{R}}$
 \end{itemize}
 \end{itemize}
+\end{itemize}
+
+\subsection{Injective, Surjective, Bijective}
+These are properties that a function may or may not have.\\
+Consider $f: A \rightarrow B$\\
+
+\underline{Injective}\\
+
+DEFN: Say that f is injective if for any $x,y \in A$, $f(x)=f(y) \rightarrow x=y$\\
+\begin{itemize}
+\item Equivalent Statements:
+\begin{itemize}
+\item Whenever x!=y belong to A be must have f(x)!=f(y)
+\begin{itemize}
+\item contra-positive, "Distinct points of A map to distinct values of B"
+\end{itemize}
+\item For every b in B, there is at most one a in A which f(a)= b.
+\begin{itemize}
+\item "every point of B has at most one preimage."
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
 
 
 
