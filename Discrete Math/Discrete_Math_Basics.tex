@@ -124,7 +124,7 @@ If B' is a set with $Im(f) \subseteq B' \subseteq B$, then we consider:
 \item Then $f_{1}+f_{2}, f_{1}*f_{2}:\mathbb{R} \rightarrow \mathbb{R}$ are defined by:\\
 			$f_{1} + f_{2}(x) = f_{1}(x) + f_{2}(x)=x $\\
 			$f_{1}f_{2}(x) = f_{1}(x) * f_{2}(x)=x^3-x^4$
-\item Note: $f_{1} + f_{2}(x) = \iota_{\mathbb{R}}$
+\item Note: $f_{1} + f_{2}(x) = \iota_{\mathbb{R}}$ (hard to read symbol is iota subscript real-number symbol)
 \end{itemize}
 \end{itemize}
 \end{itemize}
@@ -146,6 +146,23 @@ DEFN: Say that f is injective if for any $x,y \in A$, $f(x)=f(y) \rightarrow x=y
 \item For every b in B, there is at most one a in A which f(a)= b.
 \begin{itemize}
 \item "every point of B has at most one preimage."
+\end{itemize}
+\item Eg. $f:\mathbb{Z} \rightarrow \mathbb{Z}$ defined by $f(n) = n^2$
+\begin{itemize}
+\item \underline{not injective} because f(-1) = f(1).
+\item $f|_{\mathbb{Z^{> 0}}}$ is injective (function where domain is integer's greater than zero)
+\end{itemize}
+\item How to prove?
+\begin{itemize}
+\item Criteria for injectivity\\
+		Suppose $f: A \rightarrow B$ where B, A are subsets of real numbers
+\begin{itemize}
+\item f is increasing if $x<y \rightarrow f(x) <= f(y)$
+\item f is strictly increasing if $x<y \rightarrow f(x) < f(y)$
+\item f is decreasing if $x<y \rightarrow f(x) >= f(y)$
+\item f is strictly decreasing if $x<y \rightarrow f(x) > f(y)$
+\end{itemize}
+\item Proposition: A function that is strictly increasing or decreasing is injective
 \end{itemize}
 \end{itemize}
 \end{itemize}
